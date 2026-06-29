@@ -2,33 +2,32 @@
 
 A Machine Learning-based web application that predicts the stress level of students based on various academic, lifestyle, and personal factors.
 
-🔗 **Live demo:** [machine-learning-ten-kappa.vercel.app](https://machine-learning-ten-kappa.vercel.app)
+🔗 **Live Demo:** [machine-learning-ten-kappa.vercel.app](https://machine-learning-ten-kappa.vercel.app)
+
+---
+
+## 📸 Preview
+
+![App Screenshot](assets/screenshot.png)
+
+> *Add a screenshot of your running app here. Save it as `assets/screenshot.png`.*
 
 ---
 
 ## 🚀 Project Overview
 
-Student stress is a critical issue affecting academic performance and mental well-being. This project uses **Machine Learning algorithms** to analyze input data and predict stress levels, helping in early identification and management.
+Student stress is a critical issue affecting academic performance and mental well-being. This project uses **Machine Learning algorithms** to analyze student input data and predict stress levels — helping in early identification and management.
 
 ---
 
 ## 🧠 Features
 
-- 📊 Predicts student stress level (Low / Medium / High)
-- 📁 Uses real-world dataset for training
-- ⚙️ Machine Learning model integration
-- 🌐 Web-based interface using Flask
-- 📈 Easy-to-use input form for predictions
-- 📦 Modular project structure
-
----
-
-## 📊 Model Performance
-
-- **Algorithm:** _add model name_
-- **Test Accuracy:** _add %_
-- **F1 Score:** _add value_
-- **Dataset size:** _add record count_
+- 📊 Predicts student stress level across 5 levels (Very Low → Very High)
+- 📁 Trained on a real-world student stress dataset
+- ⚙️ StandardScaler preprocessing + ML classifier
+- 🌐 Web-based interface built with Flask
+- 📈 Simple input form for instant predictions
+- 📦 Modular, clean project structure
 
 ---
 
@@ -38,12 +37,15 @@ Student stress is a critical issue affecting academic performance and mental wel
 student-stress-level-prediction/
 │
 ├── dataset/           # Dataset used for training
-├── model/             # Saved ML models
-├── templates/         # HTML files (UI)
-├── training/          # Model training scripts
+├── model/             # Saved ML models (.pkl files)
+├── templates/         # HTML templates (UI)
+├── training/          # Model training scripts / notebooks
+├── assets/            # Screenshots and images for README
 │
 ├── app.py             # Main Flask application
-├── requirements.txt   # Dependencies
+├── requirements.txt   # Python dependencies
+├── .gitignore         # Files excluded from version control
+├── LICENSE            # MIT License
 └── README.md          # Project documentation
 ```
 
@@ -51,21 +53,63 @@ student-stress-level-prediction/
 
 ## ⚙️ Tech Stack
 
-- **Language:** Python
-- **Libraries:** Pandas, NumPy, Scikit-learn, Flask
-- **Frontend:** HTML, CSS
-- **Deployment:** Vercel
+| Layer       | Technology                          |
+|-------------|-------------------------------------|
+| Language    | Python 3.x                          |
+| ML Library  | Scikit-learn                        |
+| Data        | Pandas, NumPy                       |
+| Backend     | Flask                               |
+| Frontend    | HTML, CSS                           |
+| Deployment  | Vercel                              |
 
 ---
 
 ## 📊 Machine Learning Workflow
 
-1. Data Collection
-2. Data Preprocessing
-3. Feature Selection
-4. Model Training
-5. Model Evaluation
-6. Deployment using Flask
+1. **Data Collection** — Student stress dataset with physiological & academic features
+2. **Data Preprocessing** — Handling missing values, StandardScaler normalization
+3. **Feature Selection** — 5 key input features identified
+4. **Model Training** — Classifier trained and evaluated
+5. **Model Evaluation** — Accuracy, F1-score measured
+6. **Deployment** — Flask app deployed on Vercel
+
+---
+
+## 📈 Model Performance
+
+| Metric        | Score  |
+|---------------|--------|
+| Accuracy      | *Add your accuracy here* |
+| F1-Score      | *Add your F1-score here* |
+| Algorithm     | *e.g. Random Forest / SVM / KNN* |
+
+> See `training/` for the full training notebook and evaluation.
+
+---
+
+## 📌 Input Parameters
+
+| Feature                   | Description                        | Range |
+|---------------------------|------------------------------------|-------|
+| Sleep Quality             | Quality of sleep                   | 1–5   |
+| Headache Frequency        | How often headaches occur          | 1–5   |
+| Academic Performance      | Self-rated academic performance    | 1–5   |
+| Study Load                | Amount of study pressure           | 1–5   |
+| Extracurricular Activity  | Involvement in activities          | 1–5   |
+
+---
+
+## 📈 Output
+
+The model predicts one of five stress levels:
+
+| Label         | Emoji |
+|---------------|-------|
+| Very Low      | 😌    |
+| Low           | 🙂    |
+| Moderate      | 😐    |
+| High          | 😟    |
+| Very High     | 😫    |
 
 ---
 
@@ -73,20 +117,20 @@ student-stress-level-prediction/
 
 ### 1. Clone the Repository
 
-```
+```bash
 git clone https://github.com/n-a-n-d-a-n/student-stress-level-prediction.git
 cd student-stress-level-prediction
 ```
 
 ### 2. Install Dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run the Application
 
-```
+```bash
 python app.py
 ```
 
@@ -98,34 +142,19 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📌 Input Parameters
+## 🌍 Deployment
 
-- Study Hours
-- Sleep Hours
-- Academic Pressure
-- Social Interaction
-- Physical Activity
-- Screen Time
-
----
-
-## 📈 Output
-
-The model predicts:
-
-- Low Stress 😌
-- Medium Stress 😐
-- High Stress 😫
+Live on Vercel: [machine-learning-ten-kappa.vercel.app](https://machine-learning-ten-kappa.vercel.app)
 
 ---
 
 ## 💡 Future Enhancements
 
-- Add Deep Learning models
-- Improve UI/UX design
-- Real-time stress tracking
-- Integration with wearable devices
-- Personalized recommendations
+- [ ] Add Deep Learning models (LSTM, ANN)
+- [ ] Improve UI/UX design with React frontend
+- [ ] Real-time stress tracking dashboard
+- [ ] Personalized stress-reduction recommendations
+- [ ] Integration with wearable device APIs
 
 ---
 
@@ -143,6 +172,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Nandan (n-a-n-d-a-n)**
-AI & Data Science Student
+**Nandan (n-a-n-d-a-n)**  
+AI & Data Science Student — VIT Pune  
 🚀 Open Source Enthusiast
