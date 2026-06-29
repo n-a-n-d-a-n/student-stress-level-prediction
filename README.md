@@ -8,7 +8,7 @@ A Machine Learning-based web application that predicts the stress level of stude
 
 ## 📸 Preview
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/screenshot.jpeg)
 
 > *Add a screenshot of your running app here. Save it as `assets/screenshot.png`.*
 
