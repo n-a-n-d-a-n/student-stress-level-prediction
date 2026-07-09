@@ -2,7 +2,7 @@
 
 A Machine Learning-based web application that predicts the stress level of students based on various academic, lifestyle, and personal factors.
 
-🔗 **Live Demo:** [machine-learning-ten-kappa.vercel.app](https://machine-learning-ten-kappa.vercel.app)
+🔗 **Live Demo:** [machine-learning-ten-kappa.vercel.app](https://machinelearning-ten-kappa.vercel.app)
 
 ---
 
