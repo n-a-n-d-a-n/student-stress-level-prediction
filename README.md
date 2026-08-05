@@ -173,5 +173,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Nandan (n-a-n-d-a-n)**  
-AI & Data Science Student — VIT Pune  
+AI & Data Science Student - VIT Pune  
 🚀 Open Source Enthusiast
