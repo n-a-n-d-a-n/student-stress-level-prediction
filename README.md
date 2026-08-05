@@ -71,7 +71,7 @@ student-stress-level-prediction/
 3. **Feature Selection** - 5 key input features identified
 4. **Model Training** - Classifier trained and evaluated
 5. **Model Evaluation** - Accuracy, F1-score measured
-6. **Deployment** — Flask app deployed on Vercel
+6. **Deployment** - Flask app deployed on Vercel
 
 ---
 
