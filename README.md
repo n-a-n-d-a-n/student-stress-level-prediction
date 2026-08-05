@@ -66,7 +66,7 @@ student-stress-level-prediction/
 
 ## 📊 Machine Learning Workflow
 
-1. **Data Collection** — Student stress dataset with physiological & academic features
+1. **Data Collection** - Student stress dataset with physiological & academic features
 2. **Data Preprocessing** — Handling missing values, StandardScaler normalization
 3. **Feature Selection** — 5 key input features identified
 4. **Model Training** — Classifier trained and evaluated
