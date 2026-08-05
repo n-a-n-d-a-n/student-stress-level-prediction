@@ -16,7 +16,7 @@ A Machine Learning-based web application that predicts the stress level of stude
 
 ## 🚀 Project Overview
 
-Student stress is a critical issue affecting academic performance and mental well-being. This project uses **Machine Learning algorithms** to analyze student input data and predict stress levels — helping in early identification and management.
+Student stress is a critical issue affecting academic performance and mental well-being. This project uses **Machine Learning algorithms** to analyze student input data and predict stress levels - helping in early identification and management.
 
 ---
 
